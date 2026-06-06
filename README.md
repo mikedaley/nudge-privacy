@@ -2,7 +2,7 @@
 
 Privacy policy for [Nudge](https://nudge.app), a private family memory aid for iPhone.
 
-Live at: https://mikedaley.github.io/nudge-privacy/
+Live at: [https://mikedaley.github.io/nudge-privacy/](https://github.com/mikedaley/nudge-privacy/)
 
 ## Updating
 
