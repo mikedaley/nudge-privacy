@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nudge — Privacy Policy</title>
+  <meta name="description" content="Privacy policy for the Nudge iOS app." />
+  <style>
+    :root {
+      --bg: #F6EFE3;
+      --surface: #FFFDF8;
+      --text: #2C2118;
+      --text-soft: #6E6053;
+      --text-faint: #A99B8A;
+      --accent: #C2562E;
+      --line: rgba(64, 48, 32, 0.10);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #191410;
+        --surface: #241D16;
+        --text: #F3EADD;
+        --text-soft: #B6A899;
+        --text-faint: #7A6E60;
+        --accent: #E07343;
+        --line: rgba(255, 245, 230, 0.10);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 24px 96px;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 28px;
+      margin-bottom: 36px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .brand svg { width: 32px; height: 32px; }
+    .wordmark {
+      font-family: "Newsreader", Georgia, serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 28px;
+      color: var(--text);
+    }
+    h1 {
+      font-family: "Newsreader", Georgia, serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 40px;
+      margin: 0 0 10px;
+      line-height: 1.1;
+      color: var(--text);
+    }
+    .updated {
+      color: var(--text-faint);
+      font-size: 14px;
+    }
+    h2 {
+      font-family: "Newsreader", Georgia, serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 24px;
+      margin: 44px 0 12px;
+      color: var(--text);
+    }
+    h3 {
+      font-size: 17px;
+      font-weight: 600;
+      margin: 24px 0 6px;
+      color: var(--text);
+    }
+    p, ul {
+      font-size: 16px;
+      color: var(--text);
+      margin: 0 0 14px;
+    }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 8px; }
+    strong { color: var(--text); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .kicker {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .callout {
+      background: var(--surface);
+      border: 0.5px solid var(--line);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin: 24px 0 8px;
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      margin-top: 56px;
+      padding-top: 24px;
+      color: var(--text-faint);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <circle cx="16" cy="16" r="3" fill="currentColor" style="color: var(--accent);" />
+          <path d="M22.4 9.6a9 9 0 0 1 0 12.8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="0.7" style="color: var(--accent);" />
+          <path d="M26.6 5.4a15 15 0 0 1 0 21.2" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="0.32" style="color: var(--accent);" />
+        </svg>
+        <span class="wordmark">Nudge</span>
+      </div>
+      <span class="kicker">Privacy</span>
+      <h1>Your nudges are yours.</h1>
+      <div class="updated">Last updated: 6 June 2026</div>
+    </header>
+
+    <div class="callout">
+      <p><strong>The short version:</strong> Nudge keeps everything you type in your own iCloud account. The developer has no servers, no analytics, no trackers, no ads, and no way to see what you capture. Your location is used only for geofences, and it stays on your device.</p>
+    </div>
+
+    <h2>What Nudge is</h2>
+    <p>Nudge is a private prospective-memory aid for individuals and families. It helps you capture things you need to remember and surfaces them at the place where they're relevant. It is distributed privately and is not on the App Store as a public product.</p>
+
+    <h2>What Nudge handles</h2>
+
+    <h3>Tasks and notes</h3>
+    <p>Anything you type into Nudge — a task title, optional notes, the place you chose for a trigger — is stored in your iCloud account's private database, managed by Apple's CloudKit service. The developer of Nudge cannot read this data.</p>
+
+    <h3>Location</h3>
+    <p>Nudge uses your iPhone's location to fire geofence-based reminders. When you create a task triggered by "arriving at" or "leaving" a place, Nudge registers a small circular region (around 50–350 metres) with iOS. iOS monitors this on-device and notifies Nudge when you cross the boundary.</p>
+    <p>Your location is not sent to any server operated by the developer. Apple's location and CloudKit services process the request as part of normal iOS operation.</p>
+    <p>Nudge requests <strong>Always</strong> location permission so that geofences can fire when the app is in the background. You can change this at any time in iOS Settings → Privacy &amp; Security → Location Services → Nudge.</p>
+
+    <h3>Partner / family sharing</h3>
+    <p>If you invite someone to your list, Nudge uses CloudKit's record-sharing feature. The share is a private invitation between two iCloud accounts; the data lives in your CloudKit private database and your invitee gets access via CloudKit's sharing infrastructure. The developer of Nudge does not host any servers and cannot see shared content.</p>
+    <p>You can stop sharing at any time from Settings → Partner → Manage sharing.</p>
+
+    <h3>Notifications</h3>
+    <p>Nudge requests permission to deliver local notifications when a geofence fires. These notifications are generated entirely on your device. No notification content is sent to any external service.</p>
+
+    <h3>Place search (MapKit)</h3>
+    <p>When you're picking a location for a trigger, the search box uses Apple's MapKit local search. Search queries go to Apple's MapKit service, governed by Apple's MapKit privacy policy. The developer of Nudge does not see your queries.</p>
+
+    <h2>What the developer collects</h2>
+    <p><strong>Nothing.</strong> Nudge has no backend server, no analytics SDK, no crash reporter, no ad SDK. The developer cannot see your tasks, your locations, your partners' names, your search queries, or even whether you use the app.</p>
+    <p>If you choose to contact the developer at the address below, the developer will only see what you write in your email.</p>
+
+    <h2>Children's privacy</h2>
+    <p>Nudge is not directed at children under 13. If you set up Nudge for use within a family that includes children, the same data handling rules apply.</p>
+
+    <h2>Your rights and choices</h2>
+    <ul>
+      <li><strong>Stop using the app.</strong> Delete Nudge from your iPhone. The app's on-device data is removed.</li>
+      <li><strong>Remove iCloud data.</strong> iOS Settings → your Apple ID → iCloud → Manage Account Storage → Nudge → Delete.</li>
+      <li><strong>Stop sharing.</strong> In Nudge, open Settings → Partner → Manage sharing → Stop Sharing.</li>
+      <li><strong>Change location permission.</strong> iOS Settings → Privacy &amp; Security → Location Services → Nudge.</li>
+      <li><strong>Change notification permission.</strong> iOS Settings → Notifications → Nudge.</li>
+    </ul>
+
+    <h2>Changes to this policy</h2>
+    <p>If material aspects of this policy change, the "Last updated" date above will change. Continued use of Nudge after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or feedback: <a href="mailto:michael_daley@icloud.com">michael_daley@icloud.com</a></p>
+
+    <footer>
+      © 2026 Nudge. A private family app — not affiliated with Apple Inc. CloudKit, MapKit, and iCloud are trademarks of Apple Inc.
+    </footer>
+  </main>
+</body>
+</html>
